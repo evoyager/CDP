@@ -4,4 +4,9 @@ import hw1.food.Flavoring;
 
 public class BlackPepper extends Flavoring {
     int caloricity = 251;
+
+    public BlackPepper() {
+        super.setName(this.getClass().getSimpleName());
+        super.setCaloricity(caloricity);
+    }
 }

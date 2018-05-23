@@ -1,4 +1,6 @@
 package hw1.food;
 
-public class Green {
+import hw1.Food;
+
+public class Green extends Food {
 }

@@ -1,4 +1,4 @@
 package hw1;
 
-public abstract class Food {
+public abstract class Food extends Ingredient {
 }
